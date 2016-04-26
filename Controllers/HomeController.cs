@@ -15,7 +15,7 @@ namespace robin.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "This page is Kento's About Page ";
+            ViewData["Message"] = "This page is Kento's About Blog ";
             
             Testing();
 

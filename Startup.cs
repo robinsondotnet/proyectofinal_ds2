@@ -86,6 +86,8 @@ namespace robin
                 catch { }
             }
 
+
+
             app.UseIISPlatformHandler(options => options.AuthenticationDescriptions.Clear());
 
             app.UseStaticFiles();
@@ -94,6 +96,12 @@ namespace robin
 
             // To configure external authentication please see http://go.microsoft.com/fwlink/?LinkID=532715
 
+            app.UseFacebookAuthentication(options =>
+                    {
+                        options.AppId = Configuration["Authentication:Facebook:AppId"];
+                        options.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+                    });
+            
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
