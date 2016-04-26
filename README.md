@@ -1,19 +1,8 @@
-<<<<<<< HEAD
-#Proyecto Final de Desarrollo de Software II
+    # Proyecto Final de Desarrollo de Software II
 
-##Integrantes:
+## Integrantes:
 
-*Robinson Kent Villegas Rojas
-
-
-
-
-=======
-<<<<<<< HEAD
-# Welcome to ASP.NET 5
->>>>>>> origin/master
-
-We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
+* Robinson Kent Villegas Rojas
 
 You've created a new ASP.NET 5 project. [Learn what's new](http://go.microsoft.com/fwlink/?LinkId=518016)
 
@@ -51,9 +40,3 @@ You've created a new ASP.NET 5 project. [Learn what's new](http://go.microsoft.c
 *   [Publish to Microsoft Azure Web Apps](http://go.microsoft.com/fwlink/?LinkID=398609)
 
 We would love to hear your [feedback](http://go.microsoft.com/fwlink/?LinkId=518015)
-<<<<<<< HEAD
-=======
-=======
-# proyectofinal_ds2
->>>>>>> origin/master
->>>>>>> origin/master
