@@ -16,16 +16,10 @@ namespace robin.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "This page is Kento's About Blog ";
-            
-            Testing();
 
             return View();
         }
 
-        private Boolean Testing()
-        {
-            return true; 
-        }
 
         public IActionResult Contact()
         {
